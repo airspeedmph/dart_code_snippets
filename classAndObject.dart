@@ -31,15 +31,19 @@ class Student {
 }
 */
 
-// class Car {
-//   String brand = "Toyota"; // Property
 
-//   void display() {
-//     print("Car brand is $brand");
-//   }
-// }
+/*
+class Car {
+  String brand = "Toyota"; // Property
 
-// void main() {
-//   Car myCar = Car(); // Creating an object of Car
-//   myCar.display();   // Calling a method on the object
-// }
+  void display() {
+    print("Car brand is $brand");
+  }
+}
+
+void main() {
+  Car myCar = Car(); // Creating an object of Car
+  myCar.display();   // Calling a method on the object
+}
+
+*/
