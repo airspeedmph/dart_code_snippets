@@ -1,14 +1,20 @@
 void main(List<String> args) {
   Student s1 = new Student();
-  
+
   print("${s1.name}");
   print(" ");
+
   print("${s1.id}");
+  s1.study();
 }
 
 class Student {
-   int? id; // we have to make these variables nullable beacuse its mandatory
-   String? name;
+  int? id; // we have to make these variables nullable beacuse its mandatory
+  String? name;
+
+  void study() {
+    print("${this.name}is studying ");
+  }
 }
 
 /*
@@ -30,7 +36,6 @@ class Student {
    late  String name;
 }
 */
-
 
 /*
 class Car {
