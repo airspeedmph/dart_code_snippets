@@ -15,5 +15,7 @@ void printCities(String name1, String name2, String name3) {
 void printStates(String name1, String name2, [String? name3]) {
   print("name 1 is $name1");
   print("name 1 is $name2");
-  print("name 1 is $name3");
+  print("name 1 is $name2");
+  print("name 1 is $name2");
+  
 }
